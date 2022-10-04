@@ -7,7 +7,7 @@ WhatsAsena - Yusuf Usta
 */
 
 const chalk = require('chalk');
-const {WAConnection} = require('@adiwajshing/baileys');
+const {WAConnection} = require('@ominduanjane/whatsapp-web-api');
 const {StringSession} = require('./whatsasena/');
 const fs = require('fs');
 
@@ -18,8 +18,8 @@ async function whatsAsena () {
     conn.regenerateQRIntervalMs = 30000;
     
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
-${chalk.white.italic('AsenaString Kodu Alıcı')}
+        console.log(`${chalk.green.bold('King')}${chalk.blue.bold('Rawana')}
+${chalk.white.italic('King Rawana sring')}
 
 ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please wait.')}`);
     });
@@ -28,7 +28,7 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please wait.')}`);
     conn.on('open', () => {
         var st = Session.createStringSession(conn.base64EncodedAuthInfo());
         console.log(
-            chalk.green.bold('Asena String Kodunuz: '), Session.createStringSession(conn.base64EncodedAuthInfo())
+            chalk.green.bold('King Rawana sring: '), Session.createStringSession(conn.base64EncodedAuthInfo())
         );
         
         if (!fs.existsSync('config.env')) {
@@ -36,7 +36,7 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please wait.')}`);
         }
 
         console.log(
-            chalk.blue.bold('Locale kuruyorsanız node bot.js ile botu başlatabilirsiniz.')
+            chalk.blue.bold('King Rawana Md User Bot Coded By Omindu Anjana.')
         );
         process.exit(0);
     });
