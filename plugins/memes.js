@@ -8,7 +8,7 @@ Coded by @KursadHD
 */
 
 const Asena = require('../events');
-const {MessageType, Mimetype} = require('@adiwajshing/baileys');
+const {MessageType, Mimetype} = require('@ominduanjane/whatsapp-web-api');
 const memeMaker = require('meme-maker')
 const fs = require('fs')
 const Language = require('../language');
