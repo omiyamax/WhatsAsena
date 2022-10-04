@@ -8,7 +8,7 @@ WhatsAsena - Yusuf Usta
 
 const Asena = require('../events');
 const Config = require('../config');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('@ominduanjane/whatsapp-web-api');
 const {LydiaDB} = require('./sql/lydia');
 const {LydiaAI} = require('coffeehouse');
 
