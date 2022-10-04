@@ -6,7 +6,7 @@ you may not use this file except in compliance with the License.
 WhatsAsena - Yusuf Usta
 */
 
-const {MessageType, Presence, MessageOptions} = require('@adiwajshing/baileys');
+const {MessageType, Presence, MessageOptions} = require('@ominduanjane/whatsapp-web-api');
 const Base = require('./Base');
 const Image = require('./Image');
 
