@@ -7,7 +7,7 @@ WhatsAsena - Yusuf Usta
 */
 
 const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('@ominduanjane/whatsapp-web-api');
 const speedTest = require('@lh2020/speedtest-net');
 
 const Language = require('../language');
